@@ -1,0 +1,194 @@
+@import url(//fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic,700,700italic);
+
+/* basic css*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Muli", sans-serif;
+  color: #333;
+  font-weight: normal;
+}
+h1 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+h2 {
+  margin: 30px 0 20px;
+}
+
+ol {
+  line-height: 1.5;
+}
+
+/*css for header */
+
+#header {
+  padding: 10px 100px;
+  font-size: 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+  overflow: auto;
+}
+#header .logo {
+  float: left;
+  font-family: "Muli", sans-serif;
+  color: #f8f8f8;
+  margin-left: 40%;
+  font-weight: bolder;
+  margin-top: 2%;
+}
+
+#header ul.menu {
+  list-style: none;
+  float: left;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+#header ul.menu li {
+  float: left;
+  margin-right: 10px;
+}
+
+#header ul.menu li.selected a,
+#header ul.menu li a:hover {
+  color: #333;
+  font-weight: bold;
+}
+
+#header a {
+  color: #333;
+}
+
+#header a:hover {
+  color: #000;
+}
+#header .user {
+  float: right;
+  margin-top: 2%;
+  margin-right: 10%;
+}
+
+/* css for content */
+#content {
+  padding: 30px 100px;
+}
+
+/* forms */
+form {
+  overflow: auto;
+}
+
+form p {
+  width: 100%;
+  overflow: auto;
+}
+label {
+  float: left;
+  clear: both;
+  color: #333;
+
+  margin-bottom: 4px;
+}
+input,
+textarea {
+  clear: both;
+  margin: 0 15px 10px;
+  background: #f8f8f8;
+  border: 0;
+  padding: 6px 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.errorlist {
+  color: red;
+  float: left;
+  clear: both;
+  padding-left: 10px;
+}
+.helptext {
+  margin: 0 15px 10px;
+  color: #333;
+  clear: both;
+  float: left;
+  font: optional;
+  font-size: 13px;
+}
+
+/* mesages */
+ul.messages {
+  margin: 10px 100px;
+  padding: 0;
+  list-style: none;
+}
+
+ul.messafes li.success,
+ul.messages li.error,
+ul.messages li.warning,
+ul.messages li.info {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #ccc;
+}
+
+ul.messages li.success {
+  background-color: #00ff00;
+}
+ul.messages li.sucess a {
+  color: #000;
+}
+
+ul.messages li.error {
+  background-color: #ff0000;
+}
+ul.messages li.error a {
+  color: #000;
+}
+ul.messages li.warning {
+  background-color: #ffcc00;
+}
+ul.messages li.warning a {
+  color: #000;
+}
+
+ul.messages li.info {
+  background-color: #00ccff;
+}
+ul.messages li.info a {
+  color: #000;
+}
+
+ul.messages li a.close {
+  float: right;
+  color: #333;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.login-form {
+  float: left;
+}
