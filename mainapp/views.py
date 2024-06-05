@@ -10,4 +10,4 @@ def login(request):
     return render(request,'registration/login.html', {'section':'login'})
 
 def logout(request):
-    return render(request,'registration/logout.html', {'section':'logout'})
+    return render(request,'mainapp/logout.html', {})
